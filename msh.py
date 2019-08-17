@@ -9,7 +9,10 @@ while True:
     cmd = input("microshell [" + username + "] ~ ")
 
     cmdBody = cmd.split(" ")[0]
-    cmdAttr = cmd.split(" ")[1]
+    try:
+        cmdAttr = cmd.split(" ")[1]
+    except IndexError:
+        continue
 
     if cmdBody == "echo":
         echo(cmdAttr)
