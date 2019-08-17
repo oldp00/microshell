@@ -1,5 +1,6 @@
 import getpass
-import resource
+import resource.echo
+
 username = getpass.getuser()
 
 print("Windows MicroShell v0.0.1 alpha")
