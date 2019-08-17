@@ -1,5 +1,5 @@
 import getpass
-import resource
+import resource as rc
 
 username = getpass.getuser()
 
