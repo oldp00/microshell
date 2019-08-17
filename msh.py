@@ -11,6 +11,6 @@ while True:
     cmdAttr = cmd.split(" ")[1]
 
     if cmdBody == "echo":
-        
+        print(cmdAttr)
 
     # TODO: Add command execute engine
