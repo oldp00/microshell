@@ -1,5 +1,5 @@
 import getpass
-import resource.echo
+import resource
 
 username = getpass.getuser()
 
