@@ -15,6 +15,6 @@ while True:
         continue
 
     if cmdBody == "echo":
-        rc.echo.echo(cmdAttr)
+        resource.echo.echo(cmdAttr)
 
     # TODO: Add command execute engine
