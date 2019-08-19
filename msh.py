@@ -14,6 +14,6 @@ while True:
         continue
 
     if cmdBody == "echo":
-        
+        print(cmdAttr)
 
     # TODO: Add command execute engine
