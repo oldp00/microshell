@@ -1,5 +1,4 @@
 import getpass
-from resource import *
 
 username = getpass.getuser()
 
