@@ -3,6 +3,9 @@ import os
 
 username = getpass.getuser()
 
+def cmd(command):
+    os.system(str(command))
+
 print("Windows MicroShell")
 
 prompt = "microshell [" + username + "] ~ "
