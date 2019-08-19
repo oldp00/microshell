@@ -21,4 +21,7 @@ while True:
     if cmdBody == "echo":
         print(cmdAttr)
 
+    if cmdBody == "clear":
+        cmd("cls")
+
     # TODO: Add command execute engine
