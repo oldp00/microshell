@@ -5,8 +5,9 @@ username = getpass.getuser()
 
 print("Windows MicroShell")
 
+prompt = "microshell [" + username + "] ~ "
 while True:
-    cmd = input("microshell [" + username + "] ~ ")
+    cmd = input(prompt)
 
     cmdBody = cmd.split(" ")[0]
     try:
