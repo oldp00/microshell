@@ -2,7 +2,7 @@ import getpass
 
 username = getpass.getuser()
 
-print("Windows MicroShell v0.0.1 alpha")
+print("Windows MicroShell")
 
 while True:
     cmd = input("microshell [" + username + "] ~ ")
