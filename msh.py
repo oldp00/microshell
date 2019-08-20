@@ -19,12 +19,20 @@ while True:
         if cmdBody == "echo":
             print(cmdAttr)
 
+        elif cmdBody == "echoconf":
+            if cmdAttr == "on":
+                prompt = "microshell [" + username + "] ~ "
+            elif cmdAttr == "off":
+                prompt = ""
+            else:
+                print("[Error] echoconf option incorrect")
+
         elif cmdBody == "clear":
             os.system("cls")
 
         elif cmd.strip() == "":
             pass
-            
+
         else:
             print("[Error] Command is not found or incorrect")
 
