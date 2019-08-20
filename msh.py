@@ -14,11 +14,11 @@ while True:
         cmdAttr = cmd.split(" ")[1]
     except IndexError:
         continue
+    finally:
+        if cmdBody == "echo":
+            print(cmdAttr)
 
-    if cmdBody == "echo":
-        print(cmdAttr)
-
-    if cmdBody == "clear":
-        os.system("cls")
+        if cmdBody == "clear":
+            os.system("cls")
 
     # TODO: Add command execute engine
