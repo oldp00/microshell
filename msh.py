@@ -22,4 +22,7 @@ while True:
         elif cmdBody == "clear":
             os.system("cls")
 
+        else:
+            print("[Error] Command is not found or incorrect")
+
     # TODO: Add command execute engine
