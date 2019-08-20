@@ -22,6 +22,9 @@ while True:
         elif cmdBody == "clear":
             os.system("cls")
 
+        elif cmd.strip() == "":
+            pass
+            
         else:
             print("[Error] Command is not found or incorrect")
 
