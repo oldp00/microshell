@@ -17,11 +17,13 @@ while True:
         continue
     finally:
         if cmdBody == "echo":
-            if cmdAttr.strip() == "":
-                print(cmdAttr)
-
-            if not cmdAttr.strip() == "":
+            try:
+                cmdAttr = cmdAttr
+            except NameError:
                 print("")
+            else:
+                cmdAttr = cmdAttr
+
 
         elif cmdBody == "echoconf":
             if cmdAttr == "on":
