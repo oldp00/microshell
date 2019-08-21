@@ -20,7 +20,8 @@ while True:
             try:
                 print(cmdAttr)
             except NameError:
-                pass
+                cmdAttr = ""
+                print(cmdAttr)
 
         elif cmdBody == "echoconf":
             if cmdAttr == "on":
