@@ -16,12 +16,12 @@ while True:
     except IndexError:
         continue
     finally:
-        if cmdBody == "echo":
-            try:
+        try:
+            if cmdBody == "echo":
                 print(cmdAttr)
-            except NameError:
-                cmdAttr = ""
-                print("")
+        except NameError:
+            cmdAttr = ""
+            print("")
 
         elif cmdBody == "echoconf":
             if cmdAttr == "on":
