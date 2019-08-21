@@ -23,6 +23,7 @@ while True:
                 print("")
             else:
                 cmdAttr = cmdAttr
+                print(cmdAttr)
 
 
         elif cmdBody == "echoconf":
