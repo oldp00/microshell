@@ -31,6 +31,9 @@ while True:
         elif cmdBody == "clear":
             os.system("cls")
 
+        elif cmdBody == "getcd":
+            os.system("echo %cd%")
+
         elif cmd.strip() == "":
             pass
 
