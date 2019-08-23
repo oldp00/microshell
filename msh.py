@@ -5,7 +5,6 @@ import ctypes
 username = getpass.getuser()
 
 print("Windows MicroShell")
-os.system("cd /")
 
 prompt = "microshell [" + username + "] ~ "
 
