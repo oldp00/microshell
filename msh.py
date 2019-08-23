@@ -44,6 +44,9 @@ while True:
         elif cmdBody == "cmd":
             os.system("cmd")
 
+        elif cmdBody == "ps":
+            os.system("powershell")
+
         elif cmd.strip() == "":
             pass
 
