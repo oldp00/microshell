@@ -34,7 +34,7 @@ while True:
             os.system("echo %cd%")
 
         elif cmdBody == "poweroff":
-            os.system("shutdown -s")
+            os.system("shutdown -s -t %s" % cmdAttr)
 
         elif cmdBody == "setcolor":
             os.system("color %s" % cmdAttr)
