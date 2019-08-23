@@ -41,6 +41,9 @@ while True:
         elif cmdBody == "setcolor":
             os.system("color %s" % cmdAttr)
 
+        elif cmdBody == "cmd":
+            os.system("cmd")
+
         elif cmd.strip() == "":
             pass
 
