@@ -37,7 +37,10 @@ while True:
         elif cmdBody == "poweroff":
             user32 = ctypes.WinDLL('user32')
             user32.ExitWindowsEx(0x00000008, 0x00000000)
-            
+
+        elif cmdBody == "setcolor":
+            os.system("color %s" % cmdAttr)
+
         elif cmd.strip() == "":
             pass
 
