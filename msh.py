@@ -46,8 +46,8 @@ while True:
             os.system("powershell")
 
         elif cmdBody == "help":
-            print("\necho  echoconf  clear  getcd  poweroff\nsetcolor  cmd  psh")
-            print("More info:\n   help [object]")
+            print("\necho  echoconf  clear  getcd  poweroff\nsetcolor  cmd  psh\n")
+            print("More info:\n   help [object]\n")
 
         elif cmd.strip() == "":
             pass
