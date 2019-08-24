@@ -47,10 +47,10 @@ while True:
 
         elif cmdBody == "help":
             print("""
-            echo\techoconf\tclear\tgetcd\tpoweroff\n
-            setcolor\tcmd\tpsh
+            echo      echoconf  clear  getcd  poweroff\n
+            setcolor  cmd       psh
             """)
-            print("Usage:\n   help [object]")
+            print("More info:\n   help [object]")
 
         elif cmd.strip() == "":
             pass
