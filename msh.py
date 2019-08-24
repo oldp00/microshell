@@ -45,6 +45,12 @@ while True:
         elif cmdBody == "psh":
             os.system("powershell")
 
+        elif cmdBody == "help":
+            print("""
+            echo\techoconf\tclear\tgetcd\tpoweroff\n
+            setcolor\tcmd\tpsh
+            """)
+
         elif cmd.strip() == "":
             pass
 
