@@ -13,6 +13,7 @@ while True:
     cmdBody = cmd.split(" ")[0]
     try:
         cmdAttr = cmd.split(" ")[1]
+        cmdAttrs = cmdAttr.split(" ")
     except IndexError:
         continue
     finally:
