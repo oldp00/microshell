@@ -47,9 +47,6 @@ while True:
         elif cmdBody == "psh":
             os.system("powershell")
 
-        elif cmdBody == "beep":
-            winsound.Beep(int(cmdAttrs[0]), int(cmdAttrs[1]))
-
         elif cmdBody == "help":
             print("\necho  echoconf  clear  getcd  poweroff\nsetcolor  cmd  psh\n")
             print("More info:\n   help [object]\n")
