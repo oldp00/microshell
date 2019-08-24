@@ -42,7 +42,7 @@ while True:
         elif cmdBody == "cmd":
             os.system("cmd")
 
-        elif cmdBody == "ps":
+        elif cmdBody == "psh":
             os.system("powershell")
 
         elif cmd.strip() == "":
