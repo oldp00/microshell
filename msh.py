@@ -50,6 +50,7 @@ while True:
             echo\techoconf\tclear\tgetcd\tpoweroff\n
             setcolor\tcmd\tpsh
             """)
+            print("Enter \"help [object]\" for more info")
 
         elif cmd.strip() == "":
             pass
