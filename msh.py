@@ -1,6 +1,5 @@
 import getpass
 import os
-import winsound
 
 username = getpass.getuser()
 
