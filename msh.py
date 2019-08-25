@@ -52,7 +52,7 @@ while True:
 
         elif cmdBody == "help":
             if cmdAttr == "echo":
-                print("\nOutputing message\nUsage:\n  echo [message]")
+                print("\nOutputing message\n\nUsage:\n  echo [message]\n")
 
         elif cmd.strip() == "":
             pass
