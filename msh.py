@@ -51,7 +51,8 @@ while True:
             print("More info:\n   help [object]\n")
 
         elif cmdBody == "help":
-            pass
+            if cmdAttr == "echo":
+                print("\nOutputing message\nUsage:\n  echo [message]")
 
         elif cmd.strip() == "":
             pass
