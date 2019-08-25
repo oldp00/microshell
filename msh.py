@@ -50,6 +50,9 @@ while True:
             print("\necho  echoconf  clear  getcd  poweroff\nsetcolor  cmd  psh\n")
             print("More info:\n   help [object]\n")
 
+        elif cmdBody == "help":
+            pass
+
         elif cmd.strip() == "":
             pass
 
