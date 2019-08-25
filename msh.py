@@ -46,7 +46,7 @@ while True:
         elif cmdBody == "psh":
             os.system("powershell")
 
-        elif cmdBody == "help":
+        elif cmdBody == "cmdls":
             print("\necho  echoconf  clear  getcd  poweroff\nsetcolor  cmd  psh\n")
             print("More info:\n   help [object]\n")
 
