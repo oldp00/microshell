@@ -3,7 +3,7 @@ import os
 
 username = getpass.getuser()
 
-print("Windows MicroShell")
+print("Windows MicroShell\n")
 
 prompt = "microshell [" + username + "] ~ "
 
