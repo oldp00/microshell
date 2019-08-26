@@ -37,6 +37,9 @@ while True:
         elif cmdBody == "poweroff":
             os.system("shutdown -s -t %s" % cmdAttr)
 
+        elif cmdBody == "reboot":
+            os.system("shutdown -r -t %s" % cmdAttr)
+
         elif cmdBody == "setcolor":
             os.system("color %s" % cmdAttr)
 
